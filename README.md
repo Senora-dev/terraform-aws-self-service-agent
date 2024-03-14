@@ -20,7 +20,7 @@ variable "port_client_id_secret_name"{
 }
 ```
 Additionally, you need to create a secret for [Port Kafka credentials](https://docs.getport.io/create-self-service-experiences/setup-backend/webhook/kafka/) in the AWS Secret Manager. This secret will be used as a variable: 
-```
+```terraform
 variable "port_kafka_auth_credentials"{
     type = string
     default = "port_kafka_auth_credentials"
