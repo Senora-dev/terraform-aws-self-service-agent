@@ -40,3 +40,9 @@ module "self_service_agent"{
     port_kafka_consumer_group_id = "GroupIdFromPort"
 }
 ```
+
+## Contributing
+Contributions to this project are welcome! Feel free to submit issues, feature requests, or pull requests to help improve the self-service backend.
+
+## License
+This project is licensed under the [Apache 2.0 License](LICENSE).
